@@ -68,3 +68,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+新建一个项目
+1. 初始化项目
+```
+npm init -y
+```
+2. 安装react
+```
+npm i react react-dom
+```
+3. 安装webpack
+```
+npm i webpack webpack-cli webpack-dev-server -D
+```
+4. 安装babel
+```
+npm i babel-loader @babel/core @babel/preset-env @babel/preset-react -D
+```
+5. 安装html-webpack-plugin
+```
