@@ -92,3 +92,7 @@
 
 *  网络请求,对axios进行二次封装
   npm install axios
+
+  * Header的封装和整体布局
+  css的样式：
+  npm install styled-components
