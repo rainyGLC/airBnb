@@ -7,6 +7,7 @@ import App from './App';
 
 
 import "normalize.css"
+import 'antd/dist/reset.css'; //引入 Ant Design 样式
 import "./assets/css/index.less"
 import store from './store';
 import theme from './assets/theme';

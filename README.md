@@ -96,3 +96,13 @@
   * Header的封装和整体布局
   css的样式：
   npm install styled-components
+
+
+*  icons的使用
+*  npm install @mui/material @mui/styled-engine-sc
+*  npm install @mui/material @emotion/react @emotion/styled
+
+也可以安装antd design
+npm install antd
+
+首页滚动区域

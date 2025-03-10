@@ -10,13 +10,21 @@ module.exports = {
         "@":resolve("src"),
         "components":resolve("src/components"),
         "utils":resolve("src/utils"),
+        // '@mui/styled-engine': '@mui/styled-engine-sc'
       },
-      
     },
     plugins:[
       {
         //less
-        plugin: CracoLessPlugin
+        plugin: CracoLessPlugin,
+        options: {
+          lessLoaderOptions: {
+            lessOptions: {
+              modifyVars: {  },
+              javascriptEnabled: true,
+            },
+          },
+        },
       },
     ],
 
