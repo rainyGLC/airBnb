@@ -10,6 +10,7 @@ import SectionFooter from '@/components/section-footer'
 const HomeSectionV2 = memo((props) => {
   // 从props中获取数据
   const { infoData } = props
+  console.log("infoData=====>:",infoData)
 
   // 定义内部的数据
   // const [name,setName] = useState("佛山")
